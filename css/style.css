@@ -1,5 +1,4 @@
- 
- * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -33,7 +32,15 @@ header {
     padding: 25px 0 21px;
 }
 
+.header-container {
+    padding: 0 40px;          
+    max-width: 1200px;        
+    margin: 0 auto;           
+    width: 100%;              
+}
+
 .header-wrapper {
+    padding: 0 40px;
     width: 90%;
     margin: 0 auto;
 }
@@ -214,7 +221,6 @@ h1 {
 .menu-flex {
     background: url(../img/main.png) no-repeat center/cover;
     padding: 0 161px 30px 215px;
-    
 }
 
 .menu-flex h2 {
@@ -377,3 +383,6 @@ h1 {
     padding: 0 303px 32px 0 ;
 }
 
+.index.html>img{
+    padding: 0 0 0 90px;
+}
